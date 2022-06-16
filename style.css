@@ -1,0 +1,184 @@
+body {
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+.container {
+  height: 80%;
+  width: 90%;
+  position: relative;
+  border-radius: 5px;
+  font-size: 10px;
+  margin: 30px 0 50px 0;
+}
+
+#subContainer {
+  padding: 50px 30px 30px 30px;
+  color: hsla(0, 0%, 100%, 0.75);
+  height: 280px;
+}
+
+#subContainer h1 {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 30px;
+}
+
+#subContainer p {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  padding-bottom: 13px;
+}
+
+#subContainer button {
+  border-radius: 25px;
+  width: 150px;
+  border-color: hsla(0, 0%, 100%, 0.75);
+  height: 55px;
+  text-align: center;
+}
+
+.firstContainer {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.firstContainer button p {
+  color: hsl(31, 77%, 52%);
+  font-weight: bolder;
+}
+
+.secondContainer {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.secondContainer button p {
+  color: hsl(184, 100%, 22%);
+  font-weight: bolder;
+}
+
+.thirdContainer {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.thirdContainer button p {
+  color: hsl(179, 100%, 13%);
+  font-weight: bolder;
+}
+
+@media only screen and (min-width: 375px) {
+  #subContainer h1 {
+    font-family: "Big Shoulders Display", cursive;
+    font-size: 37px;
+  }
+
+  #subContainer p {
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  #subContainer {
+    padding: 50px 35px 50px 35px;
+    color: hsla(0, 0%, 100%, 0.75);
+    height: 280px;
+  }
+
+  #subContainer button {
+    border-radius: 25px;
+    width: 140px;
+    border-color: hsla(0, 0%, 100%, 0.75);
+    height: 50px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    display: flex;
+    height: 80%;
+    width: 90%;
+    top: 20px;
+    bottom: 40px;
+    border-radius: 5px;
+    font-size: 10px;
+  }
+
+  #subContainer h1 {
+    font-family: "Big Shoulders Display", cursive;
+    font-size: 35px;
+  }
+
+  #subContainer p {
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 10px;
+    line-height: 20px;
+  }
+
+  #subContainer {
+    padding: 30px 35px 50px 35px;
+    color: hsla(0, 0%, 100%, 0.75);
+    height: 280px;
+  }
+
+  #subContainer button {
+    border-radius: 25px;
+    width: 140px;
+    border-color: hsla(0, 0%, 100%, 0.75);
+    height: 50px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .container {
+    display: flex;
+    width: 90%;
+    position: relative;
+    top: 20px;
+    bottom: 40px;
+    border-radius: 5px;
+    font-size: 10px;
+  }
+
+  #subContainer h1 {
+    font-family: "Big Shoulders Display", cursive;
+    font-size: 40px;
+  }
+
+  #subContainer p {
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 17px;
+    line-height: 27px;
+    padding-bottom: 70px;
+  }
+
+  #subContainer {
+    padding: 50px 35px 200px 35px;
+    color: hsla(0, 0%, 100%, 0.75);
+    height: 280px;
+  }
+
+  #subContainer button {
+    border-radius: 25px;
+    width: 140px;
+    border-color: hsla(0, 0%, 100%, 0.75);
+    height: 65px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  /* #subContainer p {
+        padding-right: 80px;
+    }  */
+
+  #subContainer button {
+    border-radius: 25px;
+    width: 180px;
+    border-color: hsla(0, 0%, 100%, 0.75);
+    height: 65px;
+  }
+
+  #subContainer h1 {
+    font-family: "Big Shoulders Display", cursive;
+    font-size: 50px;
+  }
+}
